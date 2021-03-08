@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Willian Antunes</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<div class="container">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+			
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul id="butao" class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item "><a class="nav-link" href="#sobre">Sobre</a></li>
+							<li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<script>
+		var btnContainer = document.getElementById("botao");
+
+		var btns = btnContainer.getElementsByClassName("nav-item");
+
+			for (var i = 0; i < btns.length; i++) {
+			  btns[i].addEventListener("click", function() {
+   			 var current = document.getElementsByClassName("active");
+   			 current[0].className = current[0].className.replace(" active", "");
+   			 this.className += " active";
+ 				 });
+			}
+	</script>
+
+	<section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="banner_content">
+							<h3 class="text-uppercase">Olá</h3>
+							<h1 class="text-uppercase">Eu sou Willian Antunes</h1>
+							<h5 class="text-uppercase">Web developer</h5>
+							<div class="d-flex align-items-center">
+								<a class="primary_btn" href="#contato"><span>Me contrate</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="home_right_img">
+							<img class="" src="img/avatar.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="sobre" class="about_area section_gap">
+		<div class="container">
+			<div class="row justify-content-start align-items-center">
+				<div class="col-lg-5">
+					<div class="about_img">
+						<img class="" src="img/about-us.png" alt="">
+					</div>
+				</div>
+
+				<div class="offset-lg-1 col-lg-5">
+					<div class="main_title text-left">
+						<h2>Deixe eu  <br>
+							me apresentar</h2>
+						<p>
+							Sou Willian Antunes, um amante da tecnologia e estudante de Analise e desenvolvimento de sistemas
+						</p>
+						<p>
+							Desenvolvedor Web e de sistemas comercias, possuo experiências com desing responsivo,
+							framework Bootstrap, Banco de dados SQL 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="info_area section_gap_bottom">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div id="personalinfo" class="col-lg-6">
+							<h1>Informações pessoais</h1>
+							<br>
+							Nome: <span>Willian Jonck Antunes </span><br>
+							Data de nascimento: <span>01/05/1999 </span> <br>
+							Formação: <span>Cursando Analise e desenvolvimento de sistemas  <br> pela Uniisociesc Joinville</span><br>
+							Email: <span>willianjonckantunes@gmail.com</span><br>
+							Telefone: <span>(47) 996159067</span>
+					
+				</div>
+				<div class="offset-lg-2 col-lg-4 col-md-6">
+					<div class="client-info">
+						<div class="d-flex mb-50">
+							<img id="euzin" src="img/eu1.jpg" alt="">
+						</div>
+						<div class="call-now d-flex">
+							<div>
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="ml-15">
+								<p>Me ligue</p>
+								<h3>(47) 996159067</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="servicos" class="features_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>Serviços oferecidos </h2>
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner">
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s1.png" alt="">
+						<h4>Desenvolvimento Web</h4>
+						<p>Desenvolvimento de sistemas web responsivos e ágeis</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s2.png" alt="">
+						<h4>UI/ux design</h4>
+						<p>Criação de belas interfaces e experiências de usuário bonitas e intuitivas</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s31.png" alt="">
+						<h4>Web design</h4>
+						<p>Desing de páginas modernas e optimizadas para todos dispositivos</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s4.png" alt="">
+						<h4>Banco de dados SQL</h4>
+						<p>Criação e administração de sistemas Web ou nativos utilizando bancos de dados SQL</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="portfolio_area" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title text-left">
+						<h2>Projetos realizados <br> recentemente</h2>
+					</div>
+				</div>
+			</div>
+			<div class="filters portfolio-filter">
+				<ul>
+					<li class="active" data-filter="*">Todos</li>
+					<li data-filter=".latest"> Ultimos</li>
+					<li data-filter=".upcoming">Em desenvolvimento</li>
+				</ul>
+			</div>
+	
+			<div class="filters-content">
+				<div class="row portfolio-grid justify-content-center">
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/litsolar1.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/litsolar1.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Site Lit Solar</a></h4>
+								<p>Web desing, Desenvolvimento web</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/gerem.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/gerem.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Sistema Web</a></h4>
+								<p>Desenvolvimento web, Banco de dados</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/crochetando.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/crochetando.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Rede social Crochetan.do</a></h4>
+								<p>Desenvolvimento web, Banco de dados</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="contato" class="contact_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>Santa Catarina, Brasil</h6>
+                            <p>Joinville</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6><a href="#">47 996159067</a></h6>
+                            <p>Seg a Sex de 9 da manhã a 6 da tarde</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6><a href="#">willianjonckantunes@gmail.com</a></h6>
+                            <p>Mande um email a qualquer hora!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="primary_btn">
+                                <span>Enviar mensagem</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+	<footer class="footer_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="#">
+								<img src="img/logo.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</p>
+			</div>
+		</div>
+	</footer>
+
+	
+  	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+ 	 <script src="js/jqBootstrapValidation.js"></script>
+  	<script src="js/contact_me.js"></script>
+
+  	<script src="js/freelancer.min.js"></script>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
